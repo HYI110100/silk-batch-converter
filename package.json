@@ -1,0 +1,29 @@
+{
+  "name": "silk-batch-converter",
+  "version": "1.0.0",
+  "description": "批量转换 Silk 音频文件为 WAV 格式的工具",
+  "main": "src/convert.js",
+  "scripts": {
+      "start": "node src/convert.js",
+      "setup": "npm install && mkdir -p input output",
+      "win-run": "start run.bat",
+      "mac-run": "chmod +x run.sh && ./run.sh",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "silk",
+    "audio",
+    "converter",
+    "batch",
+    "ffmpeg"
+  ],
+  "author": "HYI",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "fs-extra": "^11.3.0"
+  },
+  "bin": {
+    "silk-convert": "./src/convert.js"
+  }
+}
