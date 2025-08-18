@@ -31,11 +31,11 @@ node src/convert.js
    - 确保文件扩展名为`.silk`
 
 2. **目录结构**：
-```
+```text
 silk-batch-converter/
-   ├── input/       # 存放待转换文件
-   ├── output/      # 输出转换结果
-   └── src/         # 源代码
+├── input/       # 存放待转换文件
+├── output/      # 输出转换结果
+└── src/         # 源代码
 ```
 
 ### 详细使用步骤
